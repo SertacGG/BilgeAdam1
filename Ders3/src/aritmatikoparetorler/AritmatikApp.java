@@ -6,6 +6,7 @@ public class AritmatikApp {
 
         System.out.println("hello");
 
+
     }
 
 }
