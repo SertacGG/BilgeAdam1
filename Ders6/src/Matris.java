@@ -1,6 +1,6 @@
 public class Matris {
     public static void main(String[] args) {
-        int [][] dizi = { {3,4,1}, {2,5,10}, {2,4,15}};
+        int [][] dizi = { {3,4,1}, {8,5,6}, {2,4,15}};
 
 //        dizi[0][0] + dizi[0][2]
 //               dizi[1][1]
