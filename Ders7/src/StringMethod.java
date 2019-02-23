@@ -1,9 +1,15 @@
+import java.util.Scanner;
+
 public class StringMethod {
     public static void main(String[] args) {
-        String deger = "stringIfadeleriGetirenMathod";
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Kelime sayısını bulmak için camel cse bir ifade girin");
+        String deger = scanner.next();
+        //String deger = "stringIfadeleriGetirenMathod";
 
         char[] charDeger = deger.toCharArray();
-        int x = 0;
+        int x = 1;
 
         for (int i = 0; i<deger.length(); i++) {
             if (charDeger[i] == Character.toUpperCase(charDeger[i])) {
@@ -11,7 +17,7 @@ public class StringMethod {
                 //System.out.println(charDeger[i]);
             }
         }
-        System.out.println("Cümlede " + (x+1) + " kelime vardır.");
+        System.out.println("Cümlede " + x + " kelime vardır.");
 
     }
 }
