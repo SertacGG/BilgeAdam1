@@ -1,9 +1,12 @@
 package CokBicimlilik;
 
+import java.util.ArrayList;
+
 public class StartApp3 {
 
     public static void main(String[] args) {
-        genisletebilirlilik();
+        //genisletebilirlilik();
+        dinamikDizi();
 
     }
 
@@ -36,6 +39,19 @@ public class StartApp3 {
                 System.out.println("Sekillerin alanı: " + sekiller.alanHesapla());
             }
         }
+    }
+
+    public static void dinamikDizi() {
+
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        arrayList.add(17);
+        arrayList.get(0);
+        System.out.println("Dizinin boyutu: " + arrayList.size());
+        //System.out.println(arrayList.get(0));
+        for (Integer eleman : arrayList) {
+            System.out.println(eleman);
+        }
+
     }
 
 }
